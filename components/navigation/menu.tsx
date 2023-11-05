@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
   return (
     <>
       <nav className="menu-nav">
-        <h1 className="menu-nav__title">React Dashboard Design</h1>
+        <h1 className="menu-nav__title">Sprint</h1>
         <div>
           <Button
             aria-label="Toggle Dark mode"
@@ -25,7 +25,7 @@ const Menu: React.FC = () => {
           </Button>
           <Popover content={<UserSettings />} placement="bottomEnd" portalClassName="user-settings__popover">
             <button className="user-settings__button">
-              <Avatar text="OA" />
+              <Avatar text="GM" />
             </button>
           </Popover>
         </div>
