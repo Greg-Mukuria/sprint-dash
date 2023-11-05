@@ -36,9 +36,9 @@ const Heading: React.FC<HeadingProps> = ({ user }) => {
             {user.github && (
               <div className="heading__integration">
                 <Text className="heading__integration-title">Git Integrations</Text>
-                <Link href={https://sprint-dash.vercel.app} target="_blank" rel="noopener" underline>
+                <Link href={`https://sprint-dash.vercel.app/`} target="_blank" rel="noopener" underline>
                   <div className="heading__integration-inner">
-                    <Icons.GitHub size={16} aria-label="Github" />
+                    <Icons.GitHub size={0} aria-label="Github" />
                     <span>{user.github}</span>
                   </div>
                 </Link>
