@@ -10,7 +10,7 @@ const Page = () => {
 
   return (
     <>
-      <Heading user={{ name: 'Ofek Ashery', role: 'Admin', github: 'ofekashery' }} />
+      <Heading user={{ name: 'Greg Maina', role: 'Admin'}} />
       <div className="page__wrapper">
         <div className="page__content">
           <div className="projects">
@@ -19,8 +19,8 @@ const Page = () => {
               repo="New Adapter"
               createdAt="4m"
             />
-            <OverviewProject projectId="Account Number: 2323 2323 2323 2323" repo="New Adapter" createdAt="2d" />
-            <OverviewProject projectId="Account Number: 5232 5232 5323 5232" repo="github/docs" createdAt="5d" />
+            <OverviewProject projectId="3sRyd3" repo="New Adapter" createdAt="2d" />
+            <OverviewProject projectId="d8Gk93" repo="github/docs" createdAt="5d" />
             <NextLink href="/projects" passHref>
               <Link className="view-all" color underline>
                 View All Adapters
