@@ -64,5 +64,6 @@ export default function TradingViewWidget() {
     <div className='tradingview-widget-container' style={{ height: "300%", width: "100%" }}>
       <div id='tradingview_597fa' style={{ height: "calc(100% - 32px)", width: "100%" }} /></div>
     </div>
+    )
   );
 }
