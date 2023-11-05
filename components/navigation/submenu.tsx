@@ -23,8 +23,8 @@ const Submenu: React.FC = () => {
               <Tabs.Item label="Adapters" value="/projects" />
               <Tabs.Item label="Subscriptions" value="/integrations" />
               <Tabs.Item label="Activity" value="/activity" />
-              <Tabs.Item label="Domains" value="/domains" />
-              <Tabs.Item label="Usage" value="/usage" />
+              <Tabs.Item label="Charts" value="/domains" />
+              <Tabs.Item label="API & Usage" value="/usage" />
               <Tabs.Item label="Settings" value="/settings" />
             </Tabs>
           </div>
