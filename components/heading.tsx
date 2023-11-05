@@ -27,7 +27,7 @@ const Heading: React.FC<HeadingProps> = ({ user }) => {
               <div className="heading__actions">
                 <NextLink href="/projects" passHref>
                   <Button type="secondary" auto>
-                    Create Project
+                    Create New Adapter
                   </Button>
                 </NextLink>
               </div>
@@ -36,7 +36,7 @@ const Heading: React.FC<HeadingProps> = ({ user }) => {
             {user.github && (
               <div className="heading__integration">
                 <Text className="heading__integration-title">Git Integrations</Text>
-                <Link href={`https://github.com/${user.github}`} target="_blank" rel="noopener" underline>
+                <Link href={} target="_blank" rel="noopener" underline>
                   <div className="heading__integration-inner">
                     <Icons.GitHub size={16} aria-label="Github" />
                     <span>{user.github}</span>
