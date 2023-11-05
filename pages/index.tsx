@@ -15,40 +15,28 @@ const Page = () => {
         <div className="page__content">
           <div className="projects">
             <OverviewProject
-              projectId="react-dashboard-design"
-              repo="ofekashery/react-dashboard-design"
+              projectId="Sprint"
+              repo="New Adapter"
               createdAt="4m"
             />
-            <OverviewProject projectId="personal-website" repo="ofekashery/personal-website" createdAt="2d" />
-            <OverviewProject projectId="docs" repo="github/docs" createdAt="5d" />
+            <OverviewProject projectId="Account Number: 2323 2323 2323 2323" repo="New Adapter" createdAt="2d" />
+            <OverviewProject projectId="Account Number: 5232 5232 5323 5232" repo="github/docs" createdAt="5d" />
             <NextLink href="/projects" passHref>
               <Link className="view-all" color underline>
-                View All Projects
+                View All Adapters
               </Link>
             </NextLink>
           </div>
           <div className="recent-activity">
             <Text h2 className="recent-activity__title">
-              Recent Activity
+              Recent Trade Activity
             </Text>
-            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
-              You deployed react-dashboard-design to <b>production</b>
-            </EventListItem>
-            <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="2d">
-              Dependabot deployed docs to <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>
-            </EventListItem>
-            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="3d">
-              You deployed personal-website to <b>production</b>
-            </EventListItem>
-            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
-              You deployed personal-website to <b>production</b>
-            </EventListItem>
-            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
-              You created project <b>personal-website</b>
+            <EventListItem username="New Adapter" avatar="/assets/avatar.png" createdAt="4m">
+              You deployed a new Adapter to <b>Server Name: Mexico City</b>
             </EventListItem>
             <NextLink href="/activity" passHref>
               <Link className="view-all" color underline>
-                View All Activity
+                View All Trade Activity
               </Link>
             </NextLink>
           </div>
