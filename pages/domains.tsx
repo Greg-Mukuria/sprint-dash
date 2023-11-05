@@ -3,7 +3,11 @@
 import React, { useEffect, useRef } from 'react';
 
 let tvScriptLoadingPromise;
-
+declare global {
+  interface Window {
+    TradingView: any; // You can specify a more specific type if available
+  }
+}
 export default function TradingViewWidget() {
   const onLoadScriptRef = useRef<() => void | null>(null);
 
