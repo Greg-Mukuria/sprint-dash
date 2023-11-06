@@ -8,13 +8,13 @@ const Footer: React.FC = () => {
     <>
       <footer>
         <Text>
-          <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
             Privacy
           </Link>
-          <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
-            Privacy
+          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
+            Security
           </Link>
-          <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
             Terms
           </Link>
         </Text>
