@@ -8,11 +8,14 @@ const Footer: React.FC = () => {
     <>
       <footer>
         <Text>
-          Made with{' '}
           <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
-            Geist
-          </Link>{' '}
-          🖤
+            Terms
+          </Link>
+        </Text>
+        <Text>
+          <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
+            Privacy
+          </Link>
         </Text>
       </footer>
       <style jsx>{`
