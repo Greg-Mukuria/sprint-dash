@@ -15,12 +15,12 @@ const Page = () => {
         <div className="page__content">
           <div className="projects">
             <OverviewProject
-              projectId="Sprint"
+              projectId="7eYsy7"
               repo="New Adapter"
               createdAt="4m"
             />
             <OverviewProject projectId="3sRyd3" repo="New Adapter" createdAt="2d" />
-            <OverviewProject projectId="d8Gk93" repo="github/docs" createdAt="5d" />
+            <OverviewProject projectId="d8Gk93" repo="New Adapter" createdAt="5d" />
             <NextLink href="/projects" passHref>
               <Link className="view-all" color underline>
                 View All Adapters
