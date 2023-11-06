@@ -8,43 +8,43 @@ const Footer: React.FC = () => {
     <>
       <footer>
         <Text>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/privacy" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/privacy" target="_blank" rel="noopener" underline>
             Privacy
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/activity" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/activity" target="_blank" rel="noopener" underline>
             Activity
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/security" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/security" target="_blank" rel="noopener" underline>
             Security
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/terms" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/terms" target="_blank" rel="noopener" underline>
             Terms
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/status" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/status" target="_blank" rel="noopener" underline>
             Status
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/docs" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/docs" target="_blank" rel="noopener" underline>
             Docs
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/contact" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/contact" target="_blank" rel="noopener" underline>
             Contact
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/pricing" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/pricing" target="_blank" rel="noopener" underline>
             Pricing
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/api" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/api" target="_blank" rel="noopener" underline>
             API
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/traders-trust-policy" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/traders-trust-policy" target="_blank" rel="noopener" underline>
             Traders Trust Policy
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/blog" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/blog" target="_blank" rel="noopener" underline>
             Blog
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/about" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/about" target="_blank" rel="noopener" underline>
             About
           </Link>
-          <Link style={{paddingLeft: "6px", paddingRight: "6px"}} href="/referrals" target="_blank" rel="noopener" underline>
+          <Link style={{paddingLeft: "6px", paddingRight: "6px", fontSize: "14px", color: "blue"}} href="/referrals" target="_blank" rel="noopener" underline>
             Referrals
           </Link>
         </Text>
