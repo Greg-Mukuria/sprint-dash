@@ -9,12 +9,13 @@ const Footer: React.FC = () => {
       <footer>
         <Text>
           <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
-            Terms
+            Privacy
           </Link>
-        </Text>
-        <Text>
           <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
             Privacy
+          </Link>
+          <Link href="https://github.com/geist-org" target="_blank" rel="noopener" underline>
+            Terms
           </Link>
         </Text>
       </footer>
