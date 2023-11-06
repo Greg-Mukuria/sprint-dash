@@ -10,7 +10,7 @@ const Page = () => {
 
   return (
     <>
-      <Heading user={{ name: 'KeS 336, 576.84', role: '+ 13.45% Today'}} />
+      <Heading user={{ name: '$ 3, 576.84', role: '+ 3.45% Today'}} />
       <div className="page__wrapper">
         <div className="page__content">
           <div className="projects">
