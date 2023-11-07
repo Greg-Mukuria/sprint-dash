@@ -22,6 +22,7 @@ const Submenu: React.FC = () => {
           <div className="submenu__inner">
             <Tabs value={router.asPath} onChange={(route) => router.push(route)}>
               <Tabs.Item label="Overview" value="/" />
+              <Tabs.Item label="Register" value="/register" />
               <Tabs.Item label="Adapters" value="/adapters" />
               <Tabs.Item label="Subscriptions" value="/subscriptions" />
               <Tabs.Item label="Activity" value="/activity" />
