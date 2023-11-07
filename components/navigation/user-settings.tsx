@@ -38,7 +38,7 @@ const UserSettings: React.FC = () => (
     </Popover.Item>
     <Popover.Item line />
     <Popover.Item>
-      <Link href="#">Logout</Link>
+      <Link href="/register">Logout</Link>
     </Popover.Item>
   </>
 );
