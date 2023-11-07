@@ -6,7 +6,7 @@
   "license": "BSC",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && babel server -d dist && npm run build-babel",
+    "build": "next build && babel server -d dist && npm run build-babel && node dist/server.js",
     "start": "next start && node dist/server.js",
     "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server/server.js",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
