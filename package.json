@@ -18,22 +18,8 @@
     "createAccount2": "babel-node ./server/models/migrations createAccount2",
     "seed": "npm run createClient && npm run createAccount && npm run createAccount2",
     "migrate": "npm run dropTable && npm run createTable && npm run createAdmin",
-    "test": "set NODE_ENV=TEST && npm run migrate && npm run seed && nyc mocha ./server/__tests__/*.js --require @babel/register --exit",
+    "test": "set NODE_ENV=TEST && npm run migrate && npm run seed && nyc mocha ./server/__tests__/*.js --require @babel/register --exit"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "keywords": [
-    "Sprint",
-    "finance",
-    "deposit",
-    "withdrawals",
-    "money"
-  ],
   "dependencies": {
     "@geist-ui/react": "^2.2.0",
     "@geist-ui/react-icons": "^1.0.1",
