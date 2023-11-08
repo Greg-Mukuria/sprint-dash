@@ -7,10 +7,10 @@
   "license": "BSC",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && babel server -d dist && npm run build-babel && node ./sever/server.mjs",
-    "start": "next start && node ./sever/server.mjs",
+    "build": "next build && babel server -d dist && npm run build-babel && node ./server.mjs",
+    "start": "next start && node ./server.mjs",
     "build-babel": "babel ./server/docs --out-dir dist/docs --copy-files",
-    "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server/server.mjs",
+    "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server.mjs",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "dropTable": "babel-node ./server/models/migrations dropTables",
     "createTable": "babel-node ./server/models/migrations createTables",
