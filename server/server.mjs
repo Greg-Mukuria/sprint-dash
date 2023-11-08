@@ -2,22 +2,17 @@ import Debug from 'debug';
 import dotenv from 'dotenv';
 import express from 'express';
 import logger from 'morgan';
-import swaggerUi from 'swagger-ui-express';
-import swaggerDocument from './docs/swagger.json'; 
-import route from './routes/index.mjs';
+import route from './routes/index.mjs'; // Updated import, removing Swagger UI
 
 // calling an instance of express
 const app = express();
 
-// logging all request to console using morgan
+// logging all requests to the console using morgan
 app.use(logger('dev'));
 
 // middlewares - parse incoming requests data
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
-// documentation
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get('/', (request, response) => {
   response.status(200).send('The API is working');
