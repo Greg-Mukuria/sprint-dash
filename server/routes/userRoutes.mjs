@@ -1,10 +1,10 @@
 import dotenv from 'dotenv';
 import userController from '../controllers/userController.mjs';
-import authenticate from '../middleware/authentications';
-import { adminRole } from '../middleware/permissions';
+import authenticate from '../middleware/authentications.mjs';
+import { adminRole } from '../middleware/permissions.mjs';
 import {
   validateSignup, validateSignin, validateNewAdmin, validateEmail,
-} from '../middleware/validations';
+} from '../middleware/validations.mjs';
 
 dotenv.config();
 
