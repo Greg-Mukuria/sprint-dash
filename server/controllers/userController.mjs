@@ -1,8 +1,8 @@
 import moment from 'moment';
-import utils from '../helpers/common';
-import statusCodes from '../helpers/statusCodes';
-import pool from '../models/database';
-import { getUserByEmail, addUser, getAccountByOwnerId } from '../models/queries';
+import utils from '../helpers/common.mjs';
+import statusCodes from '../helpers/statusCodes.mjs';
+import pool from '../models/database.mjs';
+import { getUserByEmail, addUser, getAccountByOwnerId } from '../models/queries.mjs';
 
 /**
  * @class UserController
