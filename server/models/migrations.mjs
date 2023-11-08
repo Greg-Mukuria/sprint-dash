@@ -1,8 +1,8 @@
 import Debug from 'debug';
 import moment from 'moment';
-import pool from './database';
-import utils from '../helpers/common';
-import { addAccount, addUser } from './queries';
+import pool from './database.mjs';
+import utils from '../helpers/common.mjs';
+import { addAccount, addUser } from './queries.mjs';
 
 const debug = Debug('http');
 const adminData = {
