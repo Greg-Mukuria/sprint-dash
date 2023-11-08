@@ -1,6 +1,6 @@
 import moment from 'moment';
 import utils from '../helpers/common.mjs';
-import statusCodes from '../helpers/statusCodes.mjs';
+import statusCodes from '../helpers/statusCode.mjs';
 import pool from '../models/database.mjs';
 import { getUserByEmail, addUser, getAccountByOwnerId } from '../models/queries.mjs';
 
