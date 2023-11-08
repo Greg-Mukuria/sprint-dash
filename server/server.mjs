@@ -4,7 +4,7 @@ import express from 'express';
 import logger from 'morgan';
 import swaggerUi from 'swagger-ui-express';
 const swaggerDocument = require('./docs/swagger.json');
-import route from './routes/index.js';
+import route from './routes/index.mjs';
 
 // calling an instance of express
 const app = express();
