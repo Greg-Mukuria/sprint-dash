@@ -1,7 +1,7 @@
 import moment from 'moment';
-import utils from '../helpers/common';
-import statusCodes from '../helpers/statusCodes';
-import pool from '../models/database';
+import utils from '../helpers/common.mjs';
+import statusCodes from '../helpers/statusCodes.mjs';
+import pool from '../models/database.mjs';
 import {
   addAccount,
   updateAccountStatus,
@@ -11,7 +11,7 @@ import {
   getUserById,
   getAccounts,
   getAccountByStatus,
-} from '../models/queries';
+} from '../models/queries.mjs';
 
 /**
  * @class AccountController
