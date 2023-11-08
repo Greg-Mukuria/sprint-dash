@@ -1,7 +1,6 @@
 import Debug from 'debug';
 import dotenv from 'dotenv';
-import pkg from 'pg';
-const { Pool } = pkg;
+import { Pool } from 'pg';
 
 let DATABASE_URL;
 const debug = Debug('http');
