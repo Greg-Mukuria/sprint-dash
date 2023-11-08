@@ -1,5 +1,5 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "name": "sprint",
   "description": "Trading technologies",
   "version": "0.2.0",
