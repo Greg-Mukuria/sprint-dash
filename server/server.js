@@ -1,10 +1,10 @@
-const Debug = require('debug');
-const dotenv = require('dotenv');
-const express = require('express');
-const logger = require('morgan');
-const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./docs/swagger.json');
-const route = require('./routes');
+import Debug from 'debug';
+import dotenv from 'dotenv';
+import express from 'express';
+import logger from 'morgan';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from './docs/swagger.json';
+import route from './routes';
 
 // calling an instance of express
 const app = express();
