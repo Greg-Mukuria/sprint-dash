@@ -1,4 +1,4 @@
-import statusCodes from '../helpers/statusCodes';
+import statusCodes from '../helpers/statusCodes.mjs';
 import {
   createUserSchema,
   createAdminSchema,
@@ -9,7 +9,7 @@ import {
   transactionSchema,
   transactionIdSchema,
   emailSchema,
-} from './schemas';
+} from './schemas.mjs';
 
 export const validateSignup = (request, response, next) => {
   try {
