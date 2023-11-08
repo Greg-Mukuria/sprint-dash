@@ -7,8 +7,8 @@
   "license": "BSC",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && babel server -d dist && npm run build-babel && node dist/server.mjs",
-    "start": "next start && node dist/server.mjs",
+    "build": "next build && babel server -d dist && npm run build-babel && node ./sever/server.mjs",
+    "start": "next start && node ./sever/server.mjs",
     "build-babel": "babel ./server/docs --out-dir dist/docs --copy-files",
     "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server/server.mjs",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
