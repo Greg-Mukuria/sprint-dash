@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import logger from 'morgan';
 import swaggerUi from 'swagger-ui-express';
-import swaggerDocument from './docs/swagger.json';
+import swaggerDocument from './docs/swagger.json' assert { type: 'json' };
 import route from './routes/index.js';
 
 // calling an instance of express
