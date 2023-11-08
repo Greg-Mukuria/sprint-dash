@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
-import transactionController from '../controllers/transactionController';
-import authenticate from '../middleware/authentications';
-import { staffRole } from '../middleware/permissions';
-import { validateAmount, validateTransaction } from '../middleware/validations';
+import transactionController from '../controllers/transactionController.mjs';
+import authenticate from '../middleware/authentications.mjs';
+import { staffRole } from '../middleware/permissions.mjs';
+import { validateAmount, validateTransaction } from '../middleware/validations.mjs';
 
 dotenv.config();
 
