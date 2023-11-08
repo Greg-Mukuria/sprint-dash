@@ -1,9 +1,9 @@
 import moment from 'moment';
-import statusCodes from '../helpers/statusCodes';
-import pool from '../models/database';
+import statusCodes from '../helpers/statusCodes.mjs';
+import pool from '../models/database.mjs';
 import {
   getAccountByNumber, addTransaction, updateAccountBalance, getTransaction,
-} from '../models/queries';
+} from '../models/queries.mjs';
 
 /**
  * @class TransactionController
