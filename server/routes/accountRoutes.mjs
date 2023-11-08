@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
-import accountController from '../controllers/accountController';
-import authenticate from '../middleware/authentications';
-import { adminStaffRole } from '../middleware/permissions';
-import { validateCreate, validateStatusChange, validateAccountNumber } from '../middleware/validations';
+import accountController from '../controllers/accountController.mjs';
+import authenticate from '../middleware/authentications.mjs';
+import { adminStaffRole } from '../middleware/permissions.mjs';
+import { validateCreate, validateStatusChange, validateAccountNumber } from '../middleware/validations.mjs';
 
 dotenv.config();
 
