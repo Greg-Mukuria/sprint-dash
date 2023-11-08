@@ -1,5 +1,5 @@
 {
-  "type": "commonjs",
+  "type": "module",
   "name": "sprint",
   "description": "Trading technologies",
   "version": "0.2.0",
@@ -7,10 +7,10 @@
   "license": "BSC",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && babel server -d dist && npm run build-babel && node dist/server.js",
-    "start": "next start && node dist/server.js",
+    "build": "next build && babel server -d dist && npm run build-babel && node dist/server.mjs",
+    "start": "next start && node dist/server.mjs",
     "build-babel": "babel ./server/docs --out-dir dist/docs --copy-files",
-    "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server/server.js",
+    "start:dev": "set DEBUG=http && nodemon --exec babel-node ./server/server.mjs",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "dropTable": "babel-node ./server/models/migrations dropTables",
     "createTable": "babel-node ./server/models/migrations createTables",
