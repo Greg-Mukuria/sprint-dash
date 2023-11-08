@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import userController from '../controllers/userController';
+import userController from '../controllers/userController.mjs';
 import authenticate from '../middleware/authentications';
 import { adminRole } from '../middleware/permissions';
 import {
