@@ -7,20 +7,8 @@
   "license": "BSC",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && babel server -d dist && npm run build-babel && node server/server.mjs",
-    "start": "next start && node server/server.mjs",
-    "build-babel": "babel ./server/docs --out-dir dist/docs --copy-files",
-    "start:dev": "set DEBUG=http && nodemon --exec babel-node server/server.mjs",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "dropTable": "babel-node ./server/models/migrations dropTables",
-    "createTable": "babel-node ./server/models/migrations createTables",
-    "createAdmin": "babel-node ./server/models/migrations createAdmin",
-    "createClient": "babel-node ./server/models/migrations createClient",
-    "createAccount": "babel-node ./server/models/migrations createAccount",
-    "createAccount2": "babel-node ./server/models/migrations createAccount2",
-    "seed": "npm run createClient && npm run createAccount && npm run createAccount2",
-    "migrate": "npm run dropTable && npm run createTable && npm run createAdmin",
-    "test": "set NODE_ENV=TEST && npm run migrate && npm run seed && nyc mocha ./server/__tests__/*.js --require @babel/register --exit"
+    "build": "next build",
+    "start": "next start",
   },
   "dependencies": {
     "@geist-ui/react": "^2.2.0",
