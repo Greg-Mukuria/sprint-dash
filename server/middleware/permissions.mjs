@@ -1,4 +1,4 @@
-import statusCodes from '../helpers/statusCodes';
+import statusCodes from '../helpers/statusCodes.mjs';
 
 /**
    * Check if user is a staff
